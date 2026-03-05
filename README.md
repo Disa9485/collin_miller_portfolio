@@ -2,14 +2,17 @@
 
 ## Ribit Tea Demo
 
-![Ribit Tea Demo](assets/ribitteademo_0.jpg)
+<!-- ![Ribit Tea Demo](assets/ribitteademo_0.jpg)
 ![Ribit Tea Demo](assets/ribitteademo_1.jpg)
-![Ribit Tea Demo](assets/ribitteademo.gif)
+![Ribit Tea Demo](assets/ribitteademo.gif) -->
 
-**Skills:** C++, Python, Robotics, Microcontrollers, Prototyping
+| ![](assets/ribitteademo_0.jpg) | ![](assets/ribitteademo_1.jpg) | ![](assets/ribitteademo.gif) |
+|--------|--------|--------|
+| ![](assets/ribitteademo_2.jpg) | ![](assets/ribitteademo_3.jpg) |
+
+**Skills:** C++, Python, Robotics, Microcontrollers, Prototyping, 3D Printing
 
 A robot which automatically retrieves a cup, scoops boba into a cup, dispenses liquids into cup, seals the cup, and delivers the beverage. A computer receives orders via MQTT from the website and tracks and translates those orders into robot commands. The system incorporates a microcontroller to manage 12 DC pumps, take serial commands, retrieve temperature and load cell data, and manage temperatures. This system was demoed on October 10th 2025.
-
 
 ## Ribit Tea Site
 
@@ -21,14 +24,16 @@ A robot which automatically retrieves a cup, scoops boba into a cup, dispenses l
 
 I developed this website with TypeScript and Svelte. They can find locations on the site manually or scan the location's QR code to be taken directly to the order page. The order page uses THREE.js for a unique interactive 3D ordering experience. The site utilizes Stripe for payments and communicates directly with the location's computer via MQTT to send orders and get updates for the customer.
 
+[Ribit Tea Official Site](https://ribittea.com/)
+
 ## Sightline - Operator Environmental Awareness System
 
 | ![](assets/sightline.gif) | ![](assets/sightline_0.jpg) | ![](assets/sightline_1.jpg) |
 |--------|--------|--------|
 
-**Skills:** Vulkan, OpenGL ES, Multithreading, C++, GStreamer, Camera Stitching, Embedded Systems, Edge AI, Ethernet
+**Skills:** Vulkan, OpenGL ES, Multithreading, C++, GStreamer, Camera Stitching, Embedded Systems, Edge AI, AI Finetuning, Ethernet
 
-A system capable of connecting 5 industrial cameras over ethernet, connecting to an industrial embedded controller, warping and then stitching the images together, then presenting that on a display. This system provided improved operator awareness around mobile industrial equipment. The project was showcased at World of Asphalt in 2023 and is now in production.
+A system capable of connecting 5 industrial cameras over ethernet, connecting to an industrial embedded controller, warping and then stitching the images together, then presenting that on a display. This system provided improved operator awareness around mobile industrial equipment. The system also used object detection to detect humans in view and alert the operator to the side the event occurred on. The project was showcased at World of Asphalt in 2023 and is now in production.
 
 ## Stereoscopic Camera Automation
 
@@ -38,6 +43,14 @@ A system capable of connecting 5 industrial cameras over ethernet, connecting to
 **Skills:** Stereoscopic Depth, Computer Vision, Feature Extract/Matching, Industrial Automation
 
 Developed a vision-assisted control system for mobile industrial equipment using stereoscopic depth sensing. Real-time depth data guided hydraulic solenoid actuation to automate a function previously performed manually, reducing operator workload and improving consistency.
+
+## Patent Retrieval Augmented Generation System
+
+![RAG](assets/rag_0.png)
+
+**Skills:** OpenAI API, Ollama, Gradio, Python, Dataset Cleaning
+
+This system was developed to help employees search a large dataset of tens of thousands of patent documents for specific claims. I began by cleaning 20 years of patent data into a consistent JSON format. Many documents were scanned images, requiring Tesseract OCR to extract text. Using the OpenAI Batch API, I classified patent relevance to create a smaller, more focused dataset. I then generated semantic embeddings for each claim across all documents and built a vector-based search system. When a search result is selected, a locally hosted LLM summarizes the relevant patent content for the user. This reduced the time required to locate relevant claims within large patent archives.
 
 ## SmartEdge - Joint Detection
 
