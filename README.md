@@ -2,10 +2,6 @@
 
 ## Ribit Tea Demo
 
-<!-- ![Ribit Tea Demo](assets/ribitteademo_0.jpg)
-![Ribit Tea Demo](assets/ribitteademo_1.jpg)
-![Ribit Tea Demo](assets/ribitteademo.gif) -->
-
 | ![](assets/ribitteademo_0.jpg) | ![](assets/ribitteademo_1.jpg) | ![](assets/ribitteademo.gif) |
 |--------|--------|--------|
 | ![](assets/ribitteademo_2.jpg) | ![](assets/ribitteademo_3.jpg) |
@@ -77,6 +73,36 @@ Connects a 24V Rugged Mega controller, a CAN transceiver, an SD card reader, an 
 
 # Other Projects
 
+## LLM Simulation and Interface
+
+![LLM Example](assets/llm_0.png)
+
+**Skills:** C++, OpenGL, ImGui, Chipmunk2D, PSD images, Piper, OpenAL, Llama.cpp, FAISS, Sqlite3, JSON
+
+I enjoy experimenting with large language models and their capabilities, so I wanted to build an interactable environment and memory retrieval system to test the limits of LLM's as realistic NPC's for video games who truly believe they are real. This project combines Llama based LLM's, FAISS memory retrieval, 2D graphics, physics, and text to speech.
+
+[Blob Repo](https://github.com/Disa9485/blob)
+
+## 2D Rigging and Animation
+
+![Mesh Example](assets/mesh_0.png)
+
+**Skills:** C++, OpenGL, ImGui, PSD images
+
+Sometimes I like to make my art come to life through animation so in the past I've utilized Live2D for rigging and animating 2D art. However I found that the free version and even the pro version is lacking features I would want for my projects. I built a more feature-rich version of the software for my personal projects.
+
+[Mesh Repo](https://github.com/Disa9485/mesh)
+
+## Map Generator Passion Project
+
+![Map Example](assets/maps_0.png)
+
+**Skills:** Python, Perlin Noise, OpenCV, OpenGL
+
+I have a passion for maps and cartography so creating a realistic map generator has always been of interest of me. This one uses several layers of perlin noise combined with several OpenCV operations for terrain and catmull rom chains for rivers to create what I think is the most realistic map generator I've made thus far. Plans are to create a strategy game using this.
+
+[Maps Repo](https://github.com/Disa9485/maps)
+
 ## NASA Psyche Satellite AR/WebXR Experience
 
 | ![](assets/psyche_0.png) | ![](assets/psyche_1.png) | ![](assets/psyche_2.png) |
@@ -85,13 +111,3 @@ Connects a 24V Rugged Mega controller, a CAN transceiver, an SD card reader, an 
 **Skills:** JavaScript, NODE.js, THREE.js
 
 Arizona State University senior project developed with 4 others. Developed two augmented reality web experiences for a museum, using QR codes to immerse the public in realistic space environments and an interactive UI to explore the NASA Psyche mission, its satellite, and mission lore.
-
-## Map Generator Passion Project
-
-![Map Example](assets/maps_0.png)
-
-**Skills:** Python, Perlin Noise, OpenCV, OpenGL
-
-I have somewhat of a passion for maps and cartography so creating a realistic map generator has always been of interest of me. This one uses several layers of perlin noise combined with several OpenCV operations for terrain and catmull rom chains for rivers to create what I think is the most realistic map generator I've made thus far. Plans are to create a strategy game using this.
-
-[Maps Repo](https://github.com/Disa9485/maps)
